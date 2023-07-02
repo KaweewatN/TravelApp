@@ -71,7 +71,7 @@ export default function() {
             </div> 
 
             <div className="festival-container">
-                <h3 className="upcoming-festival-title"> Hot Deal </h3>
+                <h3 className="upcoming-festival-title"> Exclusive Deal </h3>
                 <HotDeal></HotDeal>
             </div> 
         </div>
