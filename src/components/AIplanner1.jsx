@@ -1,8 +1,17 @@
 import {TiArrowBack} from "react-icons/ti";
 import { Link } from "react-router-dom";
+import { useState } from "react"
+import FaLocationDot from "react-icons/fa"
 import "./AIplanner1.css";
 
 export default function AiPlanner_1() {
+
+    const [province, setProvince] = useState('');
+
+    const handleClicked = (event) => {
+        setProvince(event.target.value);
+    };
+
     return (
         <div>
             <div className="ai-planner-img-first">
@@ -12,7 +21,20 @@ export default function AiPlanner_1() {
                     </button>
                 </Link>
                 <h2 className="title"> Your Travel Destination </h2>
-                <input className="ai-planner-location" placeholder="Where you want to go"></input>
+
+                <div>
+                    <select className="ai-planner-location" value={province} onChange={handleClicked}>
+                        <option value="">&nbsp;📍Where you want to go? </option>
+                        <option value="option1">&nbsp; Sri sa ket </option>
+                        <option value="option2">&nbsp; Ubon Ratchathani </option>
+                        <option value="option3">&nbsp; Buriram </option>
+                        <option value="option3">&nbsp; Roi Et </option>
+                        <option value="option3">&nbsp; Maha Sarakham </option>
+                        <option value="option3">&nbsp; Amnat Charoen </option>
+                        <option value="option3">&nbsp; Yasothon </option>
+                    </select>
+                </div>
+
             </div>
             
         

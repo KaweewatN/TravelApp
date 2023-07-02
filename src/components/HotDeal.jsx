@@ -9,7 +9,7 @@ export default class HotDeal extends Component {
     const settings = {
       infinite: false,
       speed: 500,
-      slidesToShow: 1.7,
+      slidesToShow: 1.8,
       slidesToScroll: 1
     };
     return (

@@ -5,7 +5,8 @@
 .ai-planner-img-first {
     position: relative;
     max-width: 100vw;
-    background-image: url('https://images.unsplash.com/photo-1510917181191-85abe24b5300?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80');
+    height: 25vh;
+    background-image: url('https://images.unsplash.com/photo-1504609773096-104ff2c73ba4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
     background-size: cover;
     padding: 25px 10px 10px 10px;
 }
@@ -24,10 +25,21 @@
 }
 
 h2 {
-    margin-top: 10px;
-    color: #ffffff;
+    margin-top: 50px;
+    margin-left: 20px;
+    color: #EAEFF2;
 }
 
 .ai-planner-next {
     color: rgba(0,0,0,0.6);
+}
+
+.ai-planner-location {
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px 20px 10px 0px;
+    border-radius: 10px;
+    border: 0;
+    min-width: 85%;
+    font-size: 18px;
 }
