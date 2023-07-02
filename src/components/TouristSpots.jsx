@@ -19,9 +19,6 @@ export default function TouristSpots() {
 	const [SortColumnDir, setSortColumnDir] = useState('');
 	const [search, setSearch] = useState(" ");
 
-	
-
-
 	const contents = data.map(item => {
 		return (
 			<Content

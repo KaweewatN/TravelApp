@@ -34,10 +34,12 @@ export default function() {
                 </div>     
 
                 <div className="categories-button-div">
-                    <button className="categories-button">
-                        <p><MdHotel></MdHotel></p>
-                    </button>
-                    <label> Accommodation </label>
+                    <Link to= '/Accomodation'>
+                        <button className="categories-button">
+                            <p><MdHotel></MdHotel></p>
+                        </button>
+                    </Link>
+                        <label> Accommodation </label>
                 </div>  
 
                 <div className="categories-button-div">
