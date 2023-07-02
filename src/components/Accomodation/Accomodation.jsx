@@ -37,7 +37,9 @@ export default function Accomodation() {
 
 			</form>
 
-            {cards}
+            <div className="cards-container">
+				{cards}
+			</div>
 
 			<div className="blank-container"></div>
 
