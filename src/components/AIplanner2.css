@@ -1,0 +1,170 @@
+/* .container {
+    position: relative;
+} */
+
+.srisaket-img {
+    position: absolute;
+    top: 0;
+    max-width: 100vw;
+    height: 35vh;
+    z-index: -1;
+}
+
+.ai-planner-link-back-div {
+    padding: 20px 20px 20px 20px;
+}
+
+.ai-planner-province {
+    position: relative;
+    top: 15vh;
+}
+
+.back-button {
+    position: absolute;
+    z-index: 10;
+    min-width: 35px;
+    height: 35px;
+    border: 0;
+    border-radius: 50%;
+}
+
+.ai-planner-container {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 62vh;
+    background-color: #fff;
+    border-radius: 45px 45px 0px 0px;
+}
+
+.ai-planner-type-container {
+    padding: 20px 20px 20px 20px;
+    max-width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ai-planner-type-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ai-planner-type-div > button{
+    padding: 10px 12px 10px 12px;
+    border-radius: 50%;
+    border: 0;
+    font-size: 18px;
+    color: rgba(0,0,0,0.6);
+}
+
+
+.ai-planner-type-div > span {
+    margin-top: 5px;
+    font-size: 12px
+}
+
+#ai-planner-2-title {
+    color: rgba(0,0,0,0.8);
+    padding: 30px 20px 0px 20px;
+}
+
+.ai-planner-slider {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.ai-planner-slider-text {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 10px 20px 10px 20px;
+}
+
+.ai-planner-slider-input {
+    min-width: 80vw;
+    height: 30px;
+    background-color: #DAB9E6;
+}
+
+.ai-planner-slider-text > h3 {
+    color: rgba(0,0,0,0.7);
+    font-size: 17px;
+}
+
+.ai-planner-slider-text > p {
+    color: rgba(0,0,0,0.7);
+    font-size: 14px;
+}
+
+.ai-planner-styles {
+    color: rgba(0,0,0,0.8);
+    padding: 30px 20px 0px 20px;
+}
+
+input[type="checkbox"]#ai-planner-food-input + label {
+    display: flex;
+    flex-direction: column;
+    background-color: #EAEFF2;
+}
+
+input[type="checkbox"]#ai-planner-food-input:checked + label{
+    display: flex;
+    flex-direction: column;
+    background-color: #DAB9E6;
+}
+
+#ai-planner-food-checkbox {
+    width: 90vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 0px 0px 20px;
+}
+
+#ai-planner-food-checkbox > label {
+    margin-bottom: 10px;
+    font-size: 14.5px ;
+    color: rgba(0,0,0,0.8);
+}
+
+.ai-planner-next-button-div {
+    width: 100vw;
+    padding: 30px 20px 30px 20px;
+}
+
+.ai-planner-next-button {
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    background-color: #DAB9E6;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.ai-planner-last-q {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 20px 20px 20px 20px;
+}
+
+.ai-planner-last-q > h3 {
+    color: rgba(0,0,0,0.7);
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.ai-planner-last-q > input {
+    font-size: 15px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 10px;
+    padding: 5px 15px 5px 15px;
+}
