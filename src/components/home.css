@@ -33,7 +33,7 @@
 
     .ai-planner-title {
         margin-left: 20px;
-        padding: 10px 30px 0px 10px;
+        padding: -10px 30px 0px 10px;
         width: 220px;
         color: white;
     }
