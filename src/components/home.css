@@ -26,19 +26,21 @@
     }
 
     .ai-planner-text {
+        margin-left: 10px;
         padding: 10vw 20px 0px 20px;
         color: white;
         font-size: 18px;
     }
 
     .ai-planner-title {
-        padding: 10px 20px 0px 10px;
+        margin-left: 20px;
+        padding: 10px 30px 0px 10px;
         width: 220px;
         color: white;
     }
     
     .ai-planner-button {
-        margin-left: 20px;
+        margin-left: 30px;
         margin-top: 30px;
         padding: 10px 10px 10px 10px;
         font-size: 18px;
@@ -88,9 +90,12 @@
 
     .upcoming-festival-title {
         padding-top: 20px;
+        padding-bottom: 20px;
         padding-left: 20px;
         color: rgba(0, 0, 0, 0.65)
     }
+
+    
     
 }
  
