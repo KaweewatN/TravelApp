@@ -16,7 +16,7 @@ export default function() {
         <div>
             <div className="top-container">
                 <NewMenu></NewMenu>
-                <p className="ai-planner-text">Hi, midnight eiei</p>
+                <p className="ai-planner-text">Hello, midnight eiei</p>
                 <h2 className="ai-planner-title">Wanna plan your next trip?</h2>
                 <Link to= '/AiPlanner/1'>
                     <button className="ai-planner-button"> Plan with AI</button>

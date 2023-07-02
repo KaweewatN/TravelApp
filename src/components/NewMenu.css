@@ -48,8 +48,8 @@
 /* For Mobile Portrait View */
 @media screen and (max-device-width: 480px) {
     nav.top-menu {
-        position: absolute;
-        top: 0;
+        /* position: absolute;
+        top: 0; */
         display: flex;
         justify-content: space-between;
         align-items: center;
