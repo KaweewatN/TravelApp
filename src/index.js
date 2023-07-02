@@ -14,7 +14,6 @@ function App() {
   return (
     
     <BrowserRouter basename="/TravelApp">
-      <div>
           <Routes>
                 <Route path="/" exact element={<Home/>}></Route>
                 <Route path="/TouristSpots" element={<TouristSpots/>}></Route>
@@ -23,7 +22,6 @@ function App() {
                 <Route path="/AiPlanner/2" element={<AiPlanner_2/>}></Route>
                 <Route path="/AiPlanner/3" element={<AiPlanner_3/>}></Route>
           </Routes>
-      </div>
     </BrowserRouter>
       
   )
