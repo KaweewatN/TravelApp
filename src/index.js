@@ -12,7 +12,7 @@ import AiPlanner_3 from "./components/AIplanner3"
 function App() {
 
   return (
-    <BrowserRouter basename={'travel-app'}>
+    <BrowserRouter>
       <div>
           <Routes>
                 <Route path="/" exact element={<Home/>}></Route>
