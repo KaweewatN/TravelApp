@@ -1,0 +1,44 @@
+
+.content-link {
+    text-decoration: none;
+}
+
+.content-container {
+    margin: 0px 16px 0px 16px;
+    max-width: 335px;
+    min-height: 100px;
+    border-radius: 10px;
+    border:1px solid rgba(0,0,0,0.1);
+    box-shadow: rgba(0,0,0,0.15) 2px 2px 2px ;
+    margin-bottom: 15px;
+}
+
+.content-picture {
+    max-width: 330px;
+    height: 210px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.provinceAndStar {
+    display: flex;
+    align-items: center;
+}
+
+.content-location {
+    padding-left: 15px;
+    font-size: 14px;
+    color: rgba(0,0,0,0.6);
+}
+
+.content-star {
+    color: #FFBF00;
+    margin-top: 3px;
+}
+
+.content-title {
+    padding-left: 15px;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    color: black;
+}

@@ -1,10 +1,10 @@
 import React from "react"
-import "./AccomodationContent.css"
+import "./ActivityContent.css"
 import { Link } from "react-router-dom";
 import {FaStar} from "react-icons/fa"
 
 
-export default function AccomodationContent(props) {
+export default function ActivityContent(props) {
 
     const starCount = props.star;
     const id = props.id

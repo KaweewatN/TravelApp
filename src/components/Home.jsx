@@ -43,9 +43,11 @@ export default function() {
                 </div>  
 
                 <div className="categories-button-div">
-                    <button className="categories-button">
-                        <p><BiRestaurant></BiRestaurant></p>
-                    </button>
+                    <Link to="/Restaurant">
+                        <button className="categories-button">
+                            <p><BiRestaurant></BiRestaurant></p>
+                        </button>
+                    </Link>
                     <label> Restaurant </label>
                 </div>      
 
@@ -57,9 +59,11 @@ export default function() {
                 </div>    
 
                 <div className="categories-button-div">
-                    <button className="categories-button">
-                        <p><MdSportsMartialArts></MdSportsMartialArts></p>
-                    </button>
+                    <Link to="/Activity">
+                        <button className="categories-button">
+                            <p><MdSportsMartialArts></MdSportsMartialArts></p>
+                        </button>
+                    </Link>
                     <label> Activity </label>
                 </div>  
 

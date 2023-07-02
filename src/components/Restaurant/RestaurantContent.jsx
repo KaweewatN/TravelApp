@@ -1,10 +1,10 @@
 import React from "react"
-import "./AccomodationContent.css"
+import "./RestaurantContent.css"
 import { Link } from "react-router-dom";
 import {FaStar} from "react-icons/fa"
 
 
-export default function AccomodationContent(props) {
+export default function RestaurantContent(props) {
 
     const starCount = props.star;
     const id = props.id
