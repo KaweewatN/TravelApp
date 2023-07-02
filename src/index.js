@@ -12,7 +12,8 @@ import AiPlanner_3 from "./components/AIplanner3"
 function App() {
 
   return (
-    <BrowserRouter>
+    
+    <BrowserRouter basename="/TravelApp">
       <div>
           <Routes>
                 <Route path="/" exact element={<Home/>}></Route>
@@ -23,13 +24,14 @@ function App() {
                 <Route path="/AiPlanner/3" element={<AiPlanner_3/>}></Route>
           </Routes>
       </div>
-      </BrowserRouter>
+    </BrowserRouter>
+      
   )
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(   
-    <App/> 
+root.render( 
+  <App/>  
   );
 
 // ReactDOM.render(
