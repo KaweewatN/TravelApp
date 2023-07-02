@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/TravelApp/static/css/main.299d9f46.css",
-    "main.js": "/TravelApp/static/js/main.679fa427.js",
+    "main.css": "/TravelApp/static/css/main.9c712a55.css",
+    "main.js": "/TravelApp/static/js/main.ac405f17.js",
     "static/media/slick.svg": "/TravelApp/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/TravelApp/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/TravelApp/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/TravelApp/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/TravelApp/index.html",
-    "main.299d9f46.css.map": "/TravelApp/static/css/main.299d9f46.css.map",
-    "main.679fa427.js.map": "/TravelApp/static/js/main.679fa427.js.map"
+    "main.9c712a55.css.map": "/TravelApp/static/css/main.9c712a55.css.map",
+    "main.ac405f17.js.map": "/TravelApp/static/js/main.ac405f17.js.map"
   },
   "entrypoints": [
-    "static/css/main.299d9f46.css",
-    "static/js/main.679fa427.js"
+    "static/css/main.9c712a55.css",
+    "static/js/main.ac405f17.js"
   ]
 }
