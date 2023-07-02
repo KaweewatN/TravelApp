@@ -20,7 +20,7 @@
     "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://KaweewatN.github.io/travel-app",
+  "homepage": "https://kaweewatn.github.io/TravelApp/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
