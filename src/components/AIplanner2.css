@@ -26,7 +26,7 @@
 
 .ai-planner-container-2 {
     position: absolute;
-    bottom: 75px;
+    bottom: 40px;
     width: 100vw;
     height: 62vh;
     z-index: 10;
@@ -66,6 +66,7 @@
 #ai-planner-2-title {
     color: rgba(0,0,0,0.8);
     padding: 30px 20px 0px 20px;
+    font-size: 20px;
 }
 
 .ai-planner-slider {
@@ -103,6 +104,7 @@
 .ai-planner-styles {
     color: rgba(0,0,0,0.8);
     padding: 30px 20px 0px 20px;
+    font-size: 20px;
 }
 
 input[type="checkbox"]#ai-planner-food-input + label {

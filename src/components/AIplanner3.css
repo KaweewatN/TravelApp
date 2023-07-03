@@ -23,7 +23,7 @@ div.ai-planner-container-3 {
 
 .ai-planner-container-2 {
     position: absolute;
-    bottom: 75px;
+    bottom: 40px;
     width: 100vw;
     height: 62vh;
     z-index: 10;
@@ -45,5 +45,5 @@ div.ai-planner-container-3 {
 
 div.empty-div {
     width: auto;
-    height: 40px;
+    height: 30px;
 }
