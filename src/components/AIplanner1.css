@@ -60,13 +60,14 @@ h2 {
 }
 
 .calendar-image {
+    margin-top: 30px;
     min-width: 300px;
     max-width: 320px;
     height: 300px;
 }
 
 button.ai-planner-next {
-    margin-top: 20px;
+    margin-top: 35px;
     width: 100%;
     padding: 10px 10px 10px 10px;
     background-color: #DAB9E6;
