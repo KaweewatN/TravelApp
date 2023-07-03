@@ -18,14 +18,13 @@
 
 .back-button {
     position: absolute;
-    z-index: 10;
     min-width: 35px;
     height: 35px;
     border: 0;
     border-radius: 50%;
 }
 
-.ai-planner-container {
+.ai-planner-container-2 {
     position: absolute;
     bottom: 0;
     width: 100vw;

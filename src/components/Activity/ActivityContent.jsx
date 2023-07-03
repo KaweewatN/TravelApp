@@ -11,8 +11,8 @@ export default function ActivityContent(props) {
 
     return (
             <Link to= {`/Activity/${id}`} className="content-link">
-                <div className="content-container">
-                    <img src={props.image_url} alt="tourist-spots" className="content-picture"/>
+                <div className="activity-content-container">
+                    <img src={props.image_url} alt="tourist-spots" className="activity-content-picture"/>
                     <div className="provinceAndStar">
                         <p className="content-location">{props.province}</p>
                         <p className="content-location content-star">{Array(starCount).fill(<FaStar/>)}</p>

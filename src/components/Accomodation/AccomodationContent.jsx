@@ -11,8 +11,8 @@ export default function AccomodationContent(props) {
 
     return (
             <Link to= {`/Accomodation/${id}`} className="content-link">
-                <div className="content-container">
-                    <img src={props.image_url} alt="tourist-spots" className="content-picture"/>
+                <div className="accomodation-content-container">
+                    <img src={props.image_url} alt="tourist-spots" className="accomodation-content-picture"/>
                     <div className="provinceAndStar">
                         <p className="content-location">{props.province}</p>
                         <p className="content-location content-star">{Array(starCount).fill(<FaStar/>)}</p>

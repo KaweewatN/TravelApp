@@ -199,7 +199,7 @@ export default function AiPlanner_2() {
                 <h2 className="ai-planner-province">SriSaket</h2>
             </div>
 
-            <div className="ai-planner-container">
+            <div className="ai-planner-container-2">
 
                 <h3 id="ai-planner-2-title"> How do you travel ?</h3>
                 <div className="ai-planner-type-container">

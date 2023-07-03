@@ -3,20 +3,20 @@
     text-decoration: none;
 }
 
-.content-container {
-    margin: 0px 20px 0px 10px;
-    max-width: 335px;
-    min-height: 100px;
+.accomodation-content-container {
+    margin: 0px 20px 0px 20px;
+    max-width: 337px;
+    min-height: 102px;
     border-radius: 10px;
     border:1px solid rgba(0,0,0,0.1);
     box-shadow: rgba(0,0,0,0.15) 2px 2px 2px ;
     margin-bottom: 15px;
 }
 
-.content-picture {
-    min-width: 335px;
-    max-width: 335.5px;
-    height: 210px;
+.accomodation-content-picture {
+    min-width: 330px;
+    max-width: 330px;
+    height: 200px;
     border-radius: 10px 10px 0px 0px;
 }
 
