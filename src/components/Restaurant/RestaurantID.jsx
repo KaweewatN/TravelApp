@@ -137,7 +137,7 @@ export default function RestaurantID() {
                     </div>
             
                     <div className="top-title">
-                        <p className="content-location content-star">{Array(4).fill(<FaStar/>)} </p>
+                        <p className="content-location content-star">{Array(5).fill(<FaStar/>)} </p>
                         <span>(5/5 ratings )</span>
                     </div>
             
