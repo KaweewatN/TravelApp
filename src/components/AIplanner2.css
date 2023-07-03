@@ -24,9 +24,9 @@
     border-radius: 50%;
 }
 
-.ai-planner-container-2 {
+.ai-planner-container-two {
     position: absolute;
-    bottom: 10px;
+    bottom: 50px;
     width: 100vw;
     height: 62vh;
     z-index: 10;
@@ -63,8 +63,9 @@
     font-size: 12px
 }
 
-#ai-planner-2-title {
-    color: rgba(0,0,0,0.8);
+#ai-planner-title-two {
+    color: #DAB9E6;
+    margin-top: 10px;
     padding: 30px 20px 0px 20px;
     font-size: 20px;
 }
@@ -101,10 +102,11 @@
     font-size: 14px;
 }
 
-.ai-planner-styles {
-    color: rgba(0,0,0,0.8);
-    padding: 30px 20px 0px 20px;
+.ai-planner-styles-two {
+    color: #DAB9E6;
+    padding: 0px 20px 0px 20px;
     font-size: 20px;
+    margin-top: 10px;
 }
 
 input[type="checkbox"]#ai-planner-food-input + label {

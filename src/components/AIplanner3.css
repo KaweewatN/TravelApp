@@ -13,7 +13,7 @@ div.ai-planner-container-3 {
 
 .ai-content-container-3 {
     position: relative;
-    min-width: 335px;
+    max-width: 300px;
     height: 250px;
     border: transparent;
     box-shadow: 1px 3px 3px rgba(0,0,0,0.2);
@@ -23,16 +23,17 @@ div.ai-planner-container-3 {
 
 .ai-planner-container-2 {
     position: absolute;
-    bottom: 10px;
+    bottom: 50px;
     width: 100vw;
     height: 62vh;
     z-index: 10;
     background-color: #fff;
     border-radius: 45px 45px 0px 0px;
+    padding: 20px;
 }
 
 .ai-content-picture {
-    min-width: 335px;
+    min-width: 300px;
     height: 140px;
 }
 

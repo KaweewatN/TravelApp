@@ -199,9 +199,9 @@ export default function AiPlanner_2() {
                 <h2 className="ai-planner-province">SriSaket</h2>
             </div>
 
-            <div className="ai-planner-container-2">
+            <div className="ai-planner-container-two">
 
-                <h3 id="ai-planner-title-2"> How do you travel ?</h3>
+                <h3 id="ai-planner-title-two"> How do you travel ?</h3>
                 <div className="ai-planner-type-container">
 
                     <div className="ai-planner-type-div">
@@ -230,7 +230,7 @@ export default function AiPlanner_2() {
                     </div>
                 </div>
 
-                <h3 className="ai-planner-styles-2"> Select your style</h3>
+                <h3 className="ai-planner-styles-two"> Select your style</h3>
 
                 <div className="ai-planner-slider">
                     <div className="ai-planner-slider-text">
