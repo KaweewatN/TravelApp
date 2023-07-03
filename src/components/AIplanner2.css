@@ -66,7 +66,7 @@
 #ai-planner-2-title {
     color: rgba(0,0,0,0.8);
     padding: 30px 20px 0px 20px;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .ai-planner-slider {
@@ -104,7 +104,7 @@
 .ai-planner-styles {
     color: rgba(0,0,0,0.8);
     padding: 30px 20px 0px 20px;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 input[type="checkbox"]#ai-planner-food-input + label {
