@@ -44,3 +44,35 @@ h2 {
     font-size: 18px;
     color: rgba(0,0,0,0.7);
 }
+
+.calendar-container {
+    margin-top: 20px;
+    display: flex;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.ai-planner-1-title {
+    margin-top: 70px;
+    margin-left: 20px;
+    color: rgba(0,0,0,0.7);
+}
+
+.calendar-image {
+    min-width: 300px;
+    max-width: 320px;
+    height: 300px;
+}
+
+button.ai-planner-next {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    background-color: #DAB9E6;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    border-radius: 10px;
+    font-weight: 600;
+}

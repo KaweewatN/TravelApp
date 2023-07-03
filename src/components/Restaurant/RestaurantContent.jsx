@@ -2,8 +2,6 @@ import React from "react"
 import "./RestaurantContent.css"
 import { Link } from "react-router-dom";
 import {FaStar} from "react-icons/fa"
-import RestaurantData from "./RestaurantData"
-import RestaurantDataContent from "./RestaurantContent";
 
 
 export default function RestaurantContent(props) {

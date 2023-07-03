@@ -35,12 +35,19 @@ export default function AiPlanner_1() {
                     </select>
                 </div>
 
+                <h3 className="ai-planner-1-title"> Select the day(s) you go </h3>
+
+                <div className="calendar-container">
+                    <img src="https://img.freepik.com/premium-vector/august-2023-calendar-template-illustration_644416-752.jpg?w=2000"
+                                className="calendar-image"></img>
+                </div>
+
+                
+                <Link to= '/AiPlanner/2' className="back-button-link">
+                    <button className="ai-planner-next"> Next </button>
+                </Link>
+
             </div>
-            
-        
-            <Link to= '/AiPlanner/2' className="back-button-link">
-                <button className="ai-planner-next"> Next </button>
-            </Link>
         </div>
 
     )

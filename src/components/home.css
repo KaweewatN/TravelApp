@@ -45,8 +45,8 @@
         font-size: 18px;
         font-weight: 600;
         border-radius: 20px;
-        color: rgba(0, 0, 0, 0.6);
-        background-color: #ffffff;
+        color: rgba(0, 0, 0, 0.5);
+        background-color: #DAB9E6;
         border: 0;
     }
 
@@ -78,7 +78,7 @@
     .categories-button > p {
         font-size: 24px;
         margin: -3px;
-        color: #DAB9E6;
+        color: #C084CC;
     }
     
     .categories-button-div > label {

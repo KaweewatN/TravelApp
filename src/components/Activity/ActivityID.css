@@ -46,8 +46,10 @@ button.content-button > p{
 
 h2.content-title {
     margin-left: 10px;
-    font-size: 28px;
+    font-size: 24px;
+    margin-top: 20px;
 }
+
 
 p.content-province {
     margin-top: -15px;
@@ -82,5 +84,6 @@ p.content-province {
     margin-top: 10px;
     padding: 0px 22px 0px 22px;
     font-size: 15px;
+    margin-bottom: 30px;
 }
 

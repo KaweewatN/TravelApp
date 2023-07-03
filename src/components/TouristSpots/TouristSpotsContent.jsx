@@ -1,16 +1,16 @@
 import React from "react"
-import "./ActivityContent.css"
+import "./TouristSpotsContent.css"
 import { Link } from "react-router-dom";
 import {FaStar} from "react-icons/fa"
 
 
-export default function ActivityContent(props) {
+export default function RestaurantContent(props) {
 
     const starCount = props.star;
     const id = props.id
 
     return (
-            <Link to= {`/Activity/${id}`} className="content-link">
+            <Link to= {`/TouristSpots/${id}`} className="content-link">
                 <div className="content-container">
                     <img src={props.image_url} alt="tourist-spots" className="content-picture"/>
                     <div className="provinceAndStar">
