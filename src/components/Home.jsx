@@ -78,6 +78,8 @@ export default function() {
                 <h3 className="upcoming-festival-title"> Exclusive Deal </h3>
                 <HotDeal></HotDeal>
             </div> 
+
+            <div className="empty-div"></div>
         </div>
     )
 }

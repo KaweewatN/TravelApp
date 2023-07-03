@@ -26,9 +26,10 @@
 
 .ai-planner-container-2 {
     position: absolute;
-    bottom: 0;
+    bottom: 75px;
     width: 100vw;
     height: 62vh;
+    z-index: 10;
     background-color: #fff;
     border-radius: 45px 45px 0px 0px;
 }
