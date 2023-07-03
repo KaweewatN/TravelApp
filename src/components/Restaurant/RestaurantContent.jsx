@@ -2,6 +2,8 @@ import React from "react"
 import "./RestaurantContent.css"
 import { Link } from "react-router-dom";
 import {FaStar} from "react-icons/fa"
+import RestaurantData from "./RestaurantData"
+import RestaurantDataContent from "./RestaurantContent";
 
 
 export default function RestaurantContent(props) {
@@ -10,7 +12,7 @@ export default function RestaurantContent(props) {
     const id = props.id
 
     return (
-            <Link to= {`/Accomodation/${id}`} className="content-link">
+            <Link to= {`/Restaurant/${id}`} className="content-link">
                 <div className="content-container">
                     <img src={props.image_url} alt="tourist-spots" className="content-picture"/>
                     <div className="provinceAndStar">

@@ -12,6 +12,7 @@ import Accomodation from "./components/Accomodation/Accomodation"
 import Restaurant from "./components/Restaurant/Restaurant"
 import Activity from "./components/Activity/Activity"
 import AccomodationID from "./components/Accomodation/AccomodationID"
+import RestaurantID from "./components/Restaurant/RestaurantID"
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
                 <Route path="/Activity" element={<Activity/>}></Route>
                 <Route path="/TouristSpots/:id" element={<TouristSpotsID/>}></Route>
                 <Route path="/Accomodation/:id" element={<AccomodationID/>}></Route>
+                <Route path="/Restaurant/:id" element={<RestaurantID/>}></Route>
                 <Route path="/AiPlanner/1" element={<AiPlanner_1/>}></Route>
                 <Route path="/AiPlanner/2" element={<AiPlanner_2/>}></Route>
                 <Route path="/AiPlanner/3" element={<AiPlanner_3/>}></Route>
